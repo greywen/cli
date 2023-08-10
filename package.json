@@ -1,0 +1,35 @@
+{
+  "name": "gy-cli",
+  "version": "0.1.0",
+  "description": "A simple front-end command line interface",
+  "main": "index.js",
+  "scripts": {
+    "server": "node server.js"
+  },
+  "keywords": [
+    "gy",
+    "cli"
+  ],
+  "author": "gy",
+  "license": "ISC",
+  "type": "commonjs",
+  "bin": "./bin/index.js",
+  "files": [
+    "bin",
+    "lib"
+  ],
+  "cliConfig": {
+    "templateURL": "http://localhost:3000/templates"
+  },
+  "dependencies": {
+    "chalk": "^4.0.0",
+    "commander": "^9.4.1",
+    "download-git-repo": "^3.0.2",
+    "fs-extra": "^11.1.0",
+    "inquirer": "^8.0.0",
+    "log-symbols": "^4.0.0",
+    "ora": "^5.0.0",
+    "path": "^0.12.7",
+    "update-notifier": "^4.0.0"
+  }
+}
