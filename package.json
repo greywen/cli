@@ -19,8 +19,8 @@
     "lib"
   ],
   "cliConfig": {
-    "fetchTemplateTimeOut": 3000,
-    "templateURL": "templates.json"
+    "templateURL": "https://raw.githubusercontent.com/gy2x/cli/main/templates.json",
+    "fetchTemplateTimeOut": 3000
   },
   "dependencies": {
     "chalk": "^4.0.0",
