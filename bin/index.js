@@ -19,5 +19,5 @@ program
     .action(project => {
         init(project);
     });
-
+    
 program.parse(process.argv);

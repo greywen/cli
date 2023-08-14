@@ -19,7 +19,8 @@
     "lib"
   ],
   "cliConfig": {
-    "templateURL": "http://localhost:3000/templates"
+    "fetchTemplateTimeOut": 3000,
+    "templateURL": "templates.json"
   },
   "dependencies": {
     "chalk": "^4.0.0",
