@@ -1,5 +1,5 @@
 {
-  "name": "gy-cli",
+  "name": "gy2x-cli",
   "version": "0.1.0",
   "description": "A simple front-end command line interface",
   "main": "index.js",
@@ -7,7 +7,7 @@
     "server": "node server.js"
   },
   "keywords": [
-    "gy",
+    "gy2x",
     "cli"
   ],
   "author": "gy",

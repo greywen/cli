@@ -1,4 +1,4 @@
-# gy-cli
+# gy2x-cli
 
 A simple front-end command line interface
 
