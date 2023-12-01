@@ -2,6 +2,6 @@
   {
     "value": "1",
     "name": "CLI template",
-    "url": "direct:git@github.com:gy2x/cli.git#main"
+    "url": "direct:git@github.com:greywen/cli.git#main"
   }
 ]

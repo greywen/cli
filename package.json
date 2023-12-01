@@ -1,13 +1,12 @@
 {
-  "name": "gy2x-cli",
-  "version": "0.1.0",
+  "name": "dbu-cli",
+  "version": "0.0.1",
   "description": "A simple front-end command line interface",
   "main": "index.js",
   "scripts": {
     "server": "node server.js"
   },
   "keywords": [
-    "gy2x",
     "cli"
   ],
   "author": "gy",
@@ -19,7 +18,7 @@
     "lib"
   ],
   "cliConfig": {
-    "templateURL": "https://raw.githubusercontent.com/gy2x/cli/main/templates.json",
+    "templateURL": "https://raw.githubusercontent.com/greywen/cli/main/templates.json",
     "fetchTemplateTimeOut": 3000
   },
   "dependencies": {

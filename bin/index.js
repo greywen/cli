@@ -6,13 +6,13 @@ const checkVersion = require('../lib/upgrade');
 
 program
     .command('upgrade')
-    .description('check the gy2x-cli version')
+    .description('check the dbu-cli version')
     .action(() => {
         checkVersion();
     });
 
 program
-    .name('gy2x-cli')
+    .name('dbu-cli')
     .usage('<commands> [options]')
     .command('create <project_name>')
     .description('create a new project')
